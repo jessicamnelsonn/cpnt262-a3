@@ -59,3 +59,17 @@ document.getElementById("array-pop").innerHTML = goodCharacters;
 // concat() - Merge two arrays together 
 const characters = goodCharacters.concat(badCharacters);
 
+// Object Methods
+
+// log an array of the values of your object with Object.values()
+console.log(Object.values(dobby));
+
+// log an array of all the keys of your object with Object.keys()
+console.log(Object.keys(siriusBlack));
+
+// Reduce an object’s editability with Object.freeze() 
+Object.freeze(severusSnape);
+severusSnape.house = "Gryffindor";
+console.log(severusSnape.house);
+
+

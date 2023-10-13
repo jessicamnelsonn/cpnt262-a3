@@ -3,7 +3,6 @@ const goodCharacters = ["Harry Potter", "Ron Weasley", "Hermione Granger", "Dobb
 // Array #2
 const badCharacters = ["Voldemort", "Bellatrix Lestrange", "Peter Pettigrew", "Dolores Umbridge"];
 
-
 // Objects
 const harryPotter = {
   name: "Harry Potter",
@@ -46,3 +45,17 @@ const siriusBlack = {
   house: "Gryffindor",
   halfBlood: "False"
 }
+
+// Array Methods
+
+// push() - Adds item(s) to the end of an array
+goodCharacters.push("Neville Longbottom") 
+document.getElementById("array-push").innerHTML = goodCharacters;
+
+// pop() - Removes the last item from an array
+goodCharacters.pop();
+document.getElementById("array-pop").innerHTML = goodCharacters;
+
+// concat() - Merge two arrays together 
+const characters = goodCharacters.concat(badCharacters);
+

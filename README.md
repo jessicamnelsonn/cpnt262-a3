@@ -1,4 +1,4 @@
-# CPNT 262 Assignment 3: Objects and Arrays
+# CPNT 262 Achievement 3: Objects and Arrays
 Author: Jessica Nelson
 
 ## Attributions
